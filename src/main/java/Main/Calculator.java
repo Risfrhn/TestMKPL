@@ -12,7 +12,7 @@ public class Calculator {
 
     // Method with long parameter list
     public int calculate(int num1, int num2, int num3, int num4, int num5) {
-        // Method with too many responsibilities
+        // Method with too many responsibilitiess
         int result = num1 + num2 - num3 * num4 / num5;
         return result;
     }
