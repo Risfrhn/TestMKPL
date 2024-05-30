@@ -23,7 +23,7 @@ public class Calculator {
         return num > 0;
     }
 
-    // Method with duplicated code
+    // Existing method with duplicated code
     public int findMax(int[] numbers) {
         int max = numbers[0];
         for (int i = 1; i < numbers.length; i++) {
@@ -32,6 +32,17 @@ public class Calculator {
             }
         }
         return max;
+    }
+
+    // New method with similar logic to findMax
+    public int findMin(int[] numbers) {
+        int min = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] < min) {
+                min = numbers[i];
+            }
+        }
+        return min;
     }
 
     // Method with public field
